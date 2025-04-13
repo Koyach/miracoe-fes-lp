@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主権者教育祭 × プララ杉田 パティオ広場 | 若者の政治参加を促進する体験型イベント</title>
+
+    <!-- メタタグ -->
+    <meta name="description"
+        content="2025年7月13日、プララ杉田で開催される主権者教育祭。若者の政治参加を促進する体験型イベントで、政策ビンゴやパネルディスカッションなど多彩なプログラムを実施。">
+    <meta name="keywords" content="主権者教育, 政治参加, 若者, プララ杉田, イベント, パネルディスカッション, 政策ビンゴ">
+    <meta name="author" content="主権者教育祭実行委員会">
+    <meta property="og:title" content="主権者教育祭 × プララ杉田 パティオ広場">
+    <meta property="og:description" content="若者の政治参加を促進する体験型イベント。2025年7月13日、プララ杉田で開催。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://miracoe.org/fes">
+    <meta property="og:image" content="https://miracoe.org/fes/images/patio.jpeg">
+    <meta property="og:site_name" content="主権者教育祭">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- 構造化データ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "主権者教育祭",
+        "description": "若者の政治参加を促進する体験型イベント",
+        "startDate": "2025-07-13T10:00",
+        "endDate": "2025-07-13T18:00",
+        "location": {
+            "@type": "Place",
+            "name": "プララ杉田 1Fパティオ広場",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "横浜市磯子区",
+                "addressRegion": "神奈川県"
+            }
+        },
+        "organizer": {
+            "@type": "Organization",
+            "name": "主権者教育祭実行委員会",
+            "url": "https://miracoe.org"
+        },
+        "performer": {
+            "@type": "Organization",
+            "name": "学生団体ミラコエ、ivote、ぽりーず、Mielka"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "JPY",
+            "availability": "https://schema.org/InStock"
+        }
+    }
+    </script>
+    <style>
+        :root {
+            --primary: #e74c3c;
+            --secondary: #3498db;
+            --accent: #f39c12;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --success: #2ecc71;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/patio.jpeg') center/cover no-repeat;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-secondary {
+            background-color: var(--secondary);
+        }
+
+        .btn-secondary:hover {
+            background-color: #2980b9;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        section:nth-child(even) {
+            background-color: white;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: var(--dark);
+            position: relative;
+        }
+
+        h2:after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background-color: var(--primary);
+            margin: 15px auto;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+
+        .overview {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .overview-content {
+            padding: 30px;
+        }
+
+        .overview-details {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .detail-item {
+            flex: 1 1 200px;
+            margin: 10px;
+            background-color: var(--light);
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .detail-item i {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .detail-item strong {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--dark);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .grid-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .grid-item-image {
+            height: 200px;
+            background-color: #ddd;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .grid-item-content {
+            padding: 20px;
+        }
+
+        .grid-item h4 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+
+        .benefits {
+            margin-top: 60px;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+
+        .benefit-icon {
+            flex: 0 0 80px;
+            height: 80px;
+            background-color: var(--light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 25px;
+        }
+
+        .benefit-icon i {
+            font-size: 2rem;
+            color: var(--primary);
+        }
+
+        .benefit-content {
+            flex: 1;
+        }
+
+        .benefit-content h4 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+
+        .cooperation {
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .cooperation ul {
+            list-style-type: none;
+            margin-left: 20px;
+        }
+
+        .cooperation li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        .cooperation li:before {
+            content: '✓';
+            color: var(--success);
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-weight: bold;
+        }
+
+        .contact {
+            text-align: center;
+            background-color: var(--dark);
+            color: white;
+            padding: 100px 0;
+        }
+
+        .contact h2:after {
+            background-color: var(--accent);
+        }
+
+        .contact-info {
+            margin-top: 40px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background-color: #222;
+            color: #777;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            .tagline {
+                font-size: 1.2rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .benefit-item {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .benefit-icon {
+                margin: 0 auto 20px;
+            }
+        }
+
+        .cta-box {
+            background-color: var(--primary);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .cta-box h3 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .event-schedule {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: var(--light);
+            left: 50%;
+            margin-left: -2px;
+        }
+
+        .timeline-item {
+            padding: 10px 40px;
+            position: relative;
+            width: 50%;
+            left: 0;
+            margin-bottom: 30px;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+        }
+
+        .timeline-item:after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -12px;
+            background-color: white;
+            border: 4px solid var(--primary);
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-item:nth-child(even):after {
+            left: -12px;
+        }
+
+        .timeline-content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-date {
+            display: inline-block;
+            color: var(--primary);
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* スペース紹介セクションのスタイル */
+        .space-feature {
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .space-feature:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .space-image {
+            flex: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .space-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .space-content {
+            flex: 1;
+            padding: 0 30px;
+        }
+
+        .space-content h3 {
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .space-content p {
+            margin-bottom: 20px;
+        }
+
+        .quote {
+            font-style: italic;
+            background-color: var(--light);
+            padding: 20px;
+            border-left: 4px solid var(--primary);
+            margin: 30px 0;
+        }
+
+        .quote-author {
+            text-align: right;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* 数字で見るメリット */
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 60px 0;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            flex: 1 1 200px;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: var(--dark);
+        }
+
+        /* ガラリーセクション */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            height: 200px;
+            background-color: #ddd;
+            background-size: cover;
+            background-position: center;
+        }
+
+        @media (max-width: 768px) {
+            .space-feature {
+                flex-direction: column;
+            }
+
+            .space-feature:nth-child(even) {
+                flex-direction: column;
+            }
+
+            .space-content {
+                padding: 30px 0;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .timeline:before {
+                left: 20px;
+            }
+
+            .timeline-item {
+                width: 100%;
+                left: 0;
+                padding-left: 50px;
+            }
+
+            .timeline-item:nth-child(even) {
+                left: 0;
+            }
+
+            .timeline-item:after,
+            .timeline-item:nth-child(even):after {
+                left: 8px;
+            }
+        }
+
+        /* パンくずリストのスタイル */
+        .breadcrumb {
+            background-color: var(--light);
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumb li {
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumb li:not(:last-child)::after {
+            content: '›';
+            margin: 0 10px;
+            color: var(--dark);
+        }
+
+        .breadcrumb a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--dark);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- パンくずリスト -->
+    <nav aria-label="パンくずリスト" class="breadcrumb">
+        <div class="container">
+            <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="https://miracoe.org" itemprop="item">
+                        <span itemprop="name">ホーム</span>
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">主権者教育祭</span>
+                    <meta itemprop="position" content="2" />
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container header-content">
+            <h1>主権者教育祭 × プララ杉田</h1>
+            <p class="tagline">政治を身近に感じる新しい体験型イベントで、集客と地域貢献を実現</p>
+            <a href="#contact" class="btn">お問い合わせ</a>
+            <a href="#about" class="btn btn-secondary">詳細を見る</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>「主権者教育」で集客力アップ！</h2>
+            <p class="text-center" style="margin-bottom: 40px; font-size: 1.2rem;">若い世代を呼び込む新しい体験型イベント</p>
+
+            <div class="overview">
+                <div class="overview-content">
+                    <h3>開催概要</h3>
+                    <div class="overview-details">
+                        <div class="detail-item">
+                            <i class="far fa-calendar-alt"></i>
+                            <strong>日時</strong>
+                            2025年7月13日(日)
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <strong>場所</strong>
+                            プララ杉田 1Fパティオ広場
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-users"></i>
+                            <strong>主催</strong>
+                            学生団体ミラコエ、ivote、ぽりーず、Mielka
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-user-friends"></i>
+                            <strong>来場予想</strong>
+                            約100名＋通行客
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-ticket-alt"></i>
+                            <strong>入場料</strong>
+                            無料
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="space">
+        <div class="container">
+            <h2>なぜプララ杉田のパティオ広場が最適なのか？</h2>
+
+            <div class="space-feature">
+                <div class="space-image">
+                    <img src="images/patio.jpeg" alt="プララ杉田パティオ広場の開放的な吹き抜け空間" />
+                </div>
+                <div class="space-content">
+                    <h3>開放的な吹き抜け空間が「祭り」の雰囲気を演出</h3>
+                    <p>高い天井と開放感のあるパティオ広場は、イベントの賑わいを施設全体に波及させます。上階からも見渡せるため、館内の回遊性向上にも貢献します。</p>
+                </div>
+            </div>
+
+            <div class="space-feature">
+                <div class="space-image">
+                    <img src="images/visitors.jpeg" alt="プララ杉田でのイベント参加者の様子" />
+                </div>
+                <div class="space-content">
+                    <h3>通行客も自然に参加できる絶好のロケーション</h3>
+                    <p>ショッピングの合間に立ち寄れる気軽さが、普段政治に興味がない方々にも「ふらっと参加」の機会を提供します。</p>
+                </div>
+            </div>
+
+            <div class="space-feature">
+                <div class="space-image">
+                    <img src="images/shops.jpeg" alt="プララ杉田の周辺店舗の様子" />
+                </div>
+                <div class="space-content">
+                    <h3>周辺店舗への波及効果</h3>
+                    <p>若い世代を中心とした新規顧客の流入により、館内の飲食店や物販店への集客効果が期待できます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="event">
+        <div class="container">
+            <h2>イベント内容：体験と楽しさで政治を身近に</h2>
+
+            <h3>多彩なブース展開</h3>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="grid-item-image" style="background-image: url('images/svg/bingo.svg');"></div>
+                    <div class="grid-item-content">
+                        <h4>政策ビンゴ</h4>
+                        <p>政治的な政策や用語を使った参加型ゲーム。楽しみながら政治知識が身につきます。</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="grid-item-image" style="background-image: url('images/svg/voting.svg');"></div>
+                    <div class="grid-item-content">
+                        <h4>「あなたはどっち派？」参加型展示</h4>
+                        <p>様々な政治的トピックについて自分の立場をシールで表明。参加者には景品をプレゼント。</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="grid-item-image" style="background-image: url('images/svg/food.svg');"></div>
+                    <div class="grid-item-content">
+                        <h4>屋台コーナー</h4>
+                        <p>お祭り感覚で参加できる企画。ヨーヨーやスーパーボールすくいなど、子どもから大人まで楽しめます。</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="grid-item-image" style="background-image: url('images/svg/sdgs.svg');"></div>
+                    <div class="grid-item-content">
+                        <h4>SDGsに配慮した軽食販売</h4>
+                        <p>環境に配慮した食品販売で、社会貢献と収益を両立。</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 60px;">ステージイベント</h3>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="grid-item-image"
+                        style="background-image: url('images/svg/panel.svg'); background-position: center 5%;"></div>
+                    <div class="grid-item-content">
+                        <h4>パネルディスカッション</h4>
+                        <p>政治や選挙に関するテーマでの討論会を開催。多様な視点から政治を考えるきっかけを提供します。</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="grid-item-image"
+                        style="background-image: url('images/svg/lecture.svg'); background-position: center 15%;"></div>
+                    <div class="grid-item-content">
+                        <h4>特別講演</h4>
+                        <p>著名な政治・経済の講師による特別セッション（調整中）。集客の目玉となるコンテンツです。</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 60px;">回遊促進策</h3>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="grid-item-image" style="background-image: url('images/svg/stamp.svg');"></div>
+                    <div class="grid-item-content">
+                        <h4>スタンプラリー</h4>
+                        <p>全ブースを回った参加者へのスタンプラリー形式の特典提供で、会場内の回遊性を高めます。</p>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="grid-item-image"
+                        style="background-image: url('images/svg/shops2.svg');background-position: center 30%;"></div>
+                    <div class="grid-item-content">
+                        <h4>店舗連携</h4>
+                        <p>館内店舗との連携可能性（クーポン配布など）により、イベント参加者の館内消費を促進します。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote">
+                <p>「若者の政治離れが課題となる中、商業施設での主権者教育は革新的なアプローチです。施設と地域、そして若者をつなぐ新しい試みとして注目しています。」</p>
+                <div class="quote-author">- ミラコエ代表：谷昊埜</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <div class="container">
+            <h2>貴施設様へのメリット</h2>
+
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">来場者数予測</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">地域メディア掲載可能性</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">30%</span>
+                    <span class="stat-label">新規顧客層の割合</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15%</span>
+                    <span class="stat-label">周辺店舗売上増加予測</span>
+                </div>
+            </div>
+
+            <div class="benefits">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h4>新規顧客層の開拓</h4>
+                        <p>若い世代を中心に、普段来店しない層へのアプローチが可能です。政治に関心のある層、学生層などの新規顧客を呼び込むことができます。</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h4>メディア露出の可能性</h4>
+                        <p>「商業施設で行う主権者教育」という新しい試みは、地域メディアの注目を集めやすくなっています。取材や記事化による施設の知名度向上が期待できます。</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h4>社会貢献としてのPR効果</h4>
+                        <p>主権者教育を支援する場を提供することで、社会的責任を果たす企業・施設としてのイメージ向上につながります。地域との良好な関係構築にも寄与します。</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h4>7月の集客増加</h4>
+                        <p>夏のイベントシーズンの集客施策として効果的です。通常の週末よりも多くの来場者が見込め、館内全体の売上向上につながります。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-box">
+                <h3>イベント実施で見込まれる効果</h3>
+                <p>7月13日の来場者増加だけでなく、地域への社会貢献、メディア露出による認知度向上、若年層の新規顧客獲得など、複合的な効果が期待できます。</p>
+                <a href="#contact" class="btn btn-secondary"
+                    style="margin-top: 20px; background-color: white; color: var(--primary);">お問い合わせはこちら</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="preparation">
+        <div class="container">
+            <h2>スケジュール案</h2>
+
+            <div class="event-schedule">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">4月15日</span>
+                            <h4>企画確定</h4>
+                            <p>イベント全体の企画内容を確定します。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">5月中</span>
+                            <h4>会場確定</h4>
+                            <p>プララ杉田様との会場利用に関する詳細を確定します。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">5月中</span>
+                            <h4>協賛確定</h4>
+                            <p>イベント協賛企業・団体を確定します。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">5月中</span>
+                            <h4>各団体ブース内容確定</h4>
+                            <p>参加団体ごとのブース内容を確定します。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">6月上旬</span>
+                            <h4>広報開始</h4>
+                            <p>SNS、ポスター、チラシなどでの広報活動を開始します。</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <span class="timeline-date">7月13日（日）</span>
+                            <h4>イベント開催</h4>
+                            <p>プララ杉田にて主権者教育祭を開催します。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cooperation" style="margin-top: 60px;">
+                <h3>協力いただきたい事項</h3>
+                <ul>
+                    <li>イベント当日の基本設備（電源、アナウンス設備など）のご提供</li>
+                    <li>事前告知への協力（施設内ポスター掲示やウェブサイトでの告知など）</li>
+                    <li>可能であれば、館内店舗との連携（クーポン発行など）のご相談</li>
+                    <li>パティオ広場での装飾・設営に関するご相談</li>
+                </ul>
+            </div>
+
+            <div class="gallery">
+                <div class="gallery-item" style="background-image: url('images/svg/gallery1.svg');"></div>
+                <div class="gallery-item" style="background-image: url('images/svg/gallery2.svg');"></div>
+                <div class="gallery-item" style="background-image: url('images/svg/gallery3.svg');"></div>
+                <div class="gallery-item" style="background-image: url('images/svg/gallery4.svg');"></div>
+                <div class="gallery-item" style="background-image: url('images/svg/gallery5.svg');"></div>
+                <div class="gallery-item" style="background-image: url('images/svg/gallery6.svg');"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>次のステップ</h2>
+            <p>詳細な企画内容や会場レイアウト、運営計画などについて、ぜひ一度打ち合わせの機会をいただければ幸いです。若者の政治参加と地域活性化の両方に貢献できるこの企画に、ぜひご協力ください。</p>
+
+            <div class="contact-info">
+                <p><strong>お問い合わせ先</strong></p>
+                <p>ミラコエ 担当：谷 昊埜</p>
+                <p>メール：contact@miracoe.org</p>
+                <a href="mailto:contact@miracoe.org" class="btn">メールでお問い合わせ</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 主権者教育祭実行委員会 - 学生団体ミラコエ、ivote、ぽりーず、Mielka</p>
+        </div>
+    </footer>
+
+    <script>
+        // スムーススクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

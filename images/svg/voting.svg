@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f5f7fa"/>
+  
+  <!-- 装飾的な背景要素 -->
+  <rect x="0" y="0" width="800" height="100" fill="#3498db" opacity="0.1"/>
+  <rect x="0" y="500" width="800" height="100" fill="#3498db" opacity="0.1"/>
+  
+  <!-- トップバナー / 看板 -->
+  <rect x="100" y="30" width="600" height="80" rx="10" fill="#3498db"/>
+  <rect x="110" y="40" width="580" height="60" rx="5" fill="#2980b9"/>
+  <text x="400" y="75" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">あなたはどっち派？</text>
+  <text x="400" y="105" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">あなたの意見をシールで表明しよう！</text>
+  
+  <!-- メイン展示パネル -->
+  <rect x="150" y="150" width="500" height="320" rx="10" fill="white" stroke="#34495e" stroke-width="3" filter="drop-shadow(0px 5px 10px rgba(0,0,0,0.2))"/>
+  
+  <!-- パネルの見出し -->
+  <rect x="150" y="150" width="500" height="50" rx="10" fill="#3498db"/>
+  <text x="400" y="183" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">政治的トピックについてあなたの立場は？</text>
+  
+  <!-- トピック1 -->
+  <rect x="180" y="220" width="440" height="60" rx="5" fill="#ecf0f1"/>
+  <text x="400" y="245" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">消費税は引き上げるべき？</text>
+  
+  <!-- トピック1の選択肢 -->
+  <rect x="200" y="255" width="150" height="30" rx="15" fill="#e74c3c"/>
+  <text x="275" y="275" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">引き上げるべき</text>
+  
+  <rect x="450" y="255" width="150" height="30" rx="15" fill="#2ecc71"/>
+  <text x="525" y="275" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">現状維持すべき</text>
+  
+  <!-- シール（トピック1に貼られたもの） - 左側に多め -->
+  <circle cx="220" cy="270" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <circle cx="235" cy="270" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <circle cx="250" cy="270" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <circle cx="265" cy="270" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <circle cx="280" cy="270" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <circle cx="295" cy="270" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <circle cx="310" cy="270" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  
+  <circle cx="470" cy="270" r="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+  <circle cx="485" cy="270" r="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+  <circle cx="500" cy="270" r="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+  <circle cx="515" cy="270" r="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+  <circle cx="530" cy="270" r="8" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+  
+  <!-- トピック2 -->
+  <rect x="180" y="300" width="440" height="60" rx="5" fill="white"/>
+  <text x="400" y="325" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">原子力発電の再稼働について</text>
+  
+  <!-- トピック2の選択肢 -->
+  <rect x="200" y="335" width="150" height="30" rx="15" fill="#3498db"/>
+  <text x="275" y="355" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">再稼働すべき</text>
+  
+  <rect x="450" y="335" width="150" height="30" rx="15" fill="#9b59b6"/>
+  <text x="525" y="355" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">別エネルギーへ移行</text>
+  
+  <!-- シール（トピック2に貼られたもの） - 比較的均等 -->
+  <circle cx="220" cy="350" r="8" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <circle cx="235" cy="350" r="8" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <circle cx="250" cy="350" r="8" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <circle cx="265" cy="350" r="8" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <circle cx="280" cy="350" r="8" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <circle cx="295" cy="350" r="8" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  
+  <circle cx="470" cy="350" r="8" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <circle cx="485" cy="350" r="8" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <circle cx="500" cy="350" r="8" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <circle cx="515" cy="350" r="8" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <circle cx="530" cy="350" r="8" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <circle cx="545" cy="350" r="8" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  
+  <!-- トピック3 -->
+  <rect x="180" y="380" width="440" height="60" rx="5" fill="#ecf0f1"/>
+  <text x="400" y="405" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">選挙権年齢はさらに引き下げるべき？</text>
+  
+  <!-- トピック3の選択肢 -->
+  <rect x="200" y="415" width="150" height="30" rx="15" fill="#f39c12"/>
+  <text x="275" y="435" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">引き下げるべき</text>
+  
+  <rect x="450" y="415" width="150" height="30" rx="15" fill="#1abc9c"/>
+  <text x="525" y="435" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">現状維持すべき</text>
+  
+  <!-- シール（トピック3に貼られたもの） - 右側に多め -->
+  <circle cx="220" cy="430" r="8" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
+  <circle cx="235" cy="430" r="8" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
+  <circle cx="250" cy="430" r="8" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
+  
+  <circle cx="470" cy="430" r="8" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  <circle cx="485" cy="430" r="8" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  <circle cx="500" cy="430" r="8" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  <circle cx="515" cy="430" r="8" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  <circle cx="530" cy="430" r="8" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  <circle cx="545" cy="430" r="8" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  <circle cx="560" cy="430" r="8" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  
+  <!-- シールシート（右下） -->
+  <rect x="580" y="350" width="160" height="140" rx="5" fill="white" stroke="#34495e" stroke-width="2"/>
+  <text x="660" y="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">カラフルシール</text>
+  
+  <!-- シールシートの中身 -->
+  <circle cx="610" cy="400" r="10" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <circle cx="640" cy="400" r="10" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <circle cx="670" cy="400" r="10" fill="#f39c12" stroke="#e67e22" stroke-width="1"/>
+  <circle cx="700" cy="400" r="10" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+  
+  <circle cx="610" cy="430" r="10" fill="#9b59b6" stroke="#8e44ad" stroke-width="1"/>
+  <circle cx="640" cy="430" r="10" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+  <circle cx="670" cy="430" r="10" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+  <circle cx="700" cy="430" r="10" fill="#34495e" stroke="#2c3e50" stroke-width="1"/>
+  
+  <circle cx="610" cy="460" r="10" fill="#e67e22" stroke="#d35400" stroke-width="1"/>
+  <circle cx="640" cy="460" r="10" fill="#16a085" stroke="#1abc9c" stroke-width="1"/>
+  <circle cx="670" cy="460" r="10" fill="#c0392b" stroke="#e74c3c" stroke-width="1"/>
+  <circle cx="700" cy="460" r="10" fill="#2980b9" stroke="#3498db" stroke-width="1"/>
+  
+  <!-- 参加者（左側） -->
+  <g transform="translate(120, 350)">
+    <!-- 若者1 -->
+    <circle cx="0" cy="0" r="40" fill="#f39c12" opacity="0.9"/>
+    <circle cx="0" cy="-25" r="20" fill="#f39c12"/>
+    <ellipse cx="-8" cy="-27" rx="4" ry="5" fill="#2c3e50"/>
+    <ellipse cx="8" cy="-27" rx="4" ry="5" fill="#2c3e50"/>
+    <path d="M-10 -15 Q0 -5 10 -15" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- 若者の腕（シールを持っている） -->
+    <path d="M20 0 Q40 10 50 -10" fill="none" stroke="#f39c12" stroke-width="8"/>
+    <circle cx="50" cy="-10" r="10" fill="#1abc9c" stroke="#16a085" stroke-width="1"/>
+    
+    <!-- 吹き出し -->
+    <path d="M30 -40 Q60 -50 70 -70 Q70 -90 40 -90 Q10 -90 10 -70 Q10 -50 30 -40 Z" fill="white" stroke="#2c3e50" stroke-width="2"/>
+    <text x="40" y="-75" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">私は現状維持に</text>
+    <text x="40" y="-60" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">投票します！</text>
+  </g>
+  
+  <!-- 参加者（右側） -->
+  <g transform="translate(650, 250)">
+    <!-- 若者2 -->
+    <circle cx="0" cy="0" r="40" fill="#3498db" opacity="0.9"/>
+    <circle cx="0" cy="-25" r="20" fill="#3498db"/>
+    <ellipse cx="-8" cy="-27" rx="4" ry="5" fill="#2c3e50"/>
+    <ellipse cx="8" cy="-27" rx="4" ry="5" fill="#2c3e50"/>
+    <path d="M-10 -15 Q0 -5 10 -15" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- 若者の腕（シールを持っている） -->
+    <path d="M-20 0 Q-40 10 -50 -10" fill="none" stroke="#3498db" stroke-width="8"/>
+    <circle cx="-50" cy="-10" r="10" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    
+    <!-- 吹き出し -->
+    <path d="M-30 -40 Q-60 -50 -70 -70 Q-70 -90 -40 -90 Q-10 -90 -10 -70 Q-10 -50 -30 -40 Z" fill="white" stroke="#2c3e50" stroke-width="2"/>
+    <text x="-40" y="-75" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">消費税は上げて</text>
+    <text x="-40" y="-60" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">福祉を充実させたい</text>
+  </g>
+  
+  <!-- スタッフ（中央下部） -->
+  <g transform="translate(400, 520)">
+    <!-- スタッフ -->
+    <circle cx="0" cy="0" r="40" fill="#2ecc71" opacity="0.9"/>
+    <circle cx="0" cy="-25" r="20" fill="#2ecc71"/>
+    <ellipse cx="-8" cy="-27" rx="4" ry="5" fill="#2c3e50"/>
+    <ellipse cx="8" cy="-27" rx="4" ry="5" fill="#2c3e50"/>
+    <path d="M-10 -15 Q0 -5 10 -15" fill="none" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- スタッフの吹き出し -->
+    <path d="M0 -40 Q30 -50 50 -80 Q50 -100 20 -100 Q-10 -100 -30 -80 Q-50 -60 0 -40 Z" fill="white" stroke="#2c3e50" stroke-width="2"/>
+    <text x="10" y="-85" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">参加してくれた方には</text>
+    <text x="10" y="-70" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">特製ステッカーを</text>
+    <text x="10" y="-55" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50" text-anchor="middle">プレゼント！</text>
+  </g>
+  
+  <!-- 景品（右下） -->
+  <g transform="translate(500, 510)">
+    <!-- 景品の箱 -->
+    <rect x="0" y="0" width="80" height="60" rx="5" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+    <rect x="5" y="5" width="70" height="50" rx="3" fill="#f39c12" opacity="0.5"/>
+    <text x="40" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">景品</text>
+    
+    <!-- 飛び出ているステッカー -->
+    <path d="M80 20 L100 15 L100 35 L80 30 Z" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <circle cx="90" cy="25" r="8" fill="#3498db" opacity="0.8"/>
+    <text x="90" cy="28" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">投票</text>
+  </g>
+  
+  <!-- 下部の説明テキスト -->
+  <rect x="100" y="580" width="600" height="30" rx="5" fill="#34495e"/>
+  <text x="400" y="600" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">政治的な意見をシールで表現！参加すると特製ステッカーがもらえます</text>
+</svg>

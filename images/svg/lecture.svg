@@ -1,0 +1,110 @@
+ <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 - エレガントなグラデーション -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a5f" />
+      <stop offset="100%" stop-color="#0f2035" />
+    </linearGradient>
+    <linearGradient id="stageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a4a6f" />
+      <stop offset="100%" stop-color="#2a3a5f" />
+    </linearGradient>
+    <linearGradient id="spotlightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffae6" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#fff5cc" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  
+  <!-- 抽象的な装飾要素 - 知性と洗練さを表現 -->
+  <g opacity="0.15">
+    <path d="M0,150 Q400,50 800,200 T800,400" stroke="#ffffff" stroke-width="2" fill="none" />
+    <path d="M0,250 Q400,150 800,300 T800,500" stroke="#ffffff" stroke-width="2" fill="none" />
+    <path d="M0,350 Q400,250 800,400 T800,600" stroke="#ffffff" stroke-width="2" fill="none" />
+  </g>
+  
+  <!-- 聴衆シルエット（抽象的に表現） -->
+  <g>
+    <ellipse cx="400" cy="500" rx="380" ry="30" fill="#0f1825" opacity="0.7" />
+    <g fill="#162638" opacity="0.8">
+      <!-- 前列 -->
+      <rect x="200" y="450" width="20" height="30" rx="5" />
+      <rect x="230" y="440" width="20" height="40" rx="5" />
+      <rect x="260" y="445" width="20" height="35" rx="5" />
+      <rect x="290" y="440" width="20" height="40" rx="5" />
+      <rect x="320" y="445" width="20" height="35" rx="5" />
+      <rect x="350" y="440" width="20" height="40" rx="5" />
+      <rect x="380" y="450" width="20" height="30" rx="5" />
+      <rect x="410" y="445" width="20" height="35" rx="5" />
+      <rect x="440" y="440" width="20" height="40" rx="5" />
+      <rect x="470" y="445" width="20" height="35" rx="5" />
+      <rect x="500" y="440" width="20" height="40" rx="5" />
+      <rect x="530" y="450" width="20" height="30" rx="5" />
+      <rect x="560" y="445" width="20" height="35" rx="5" />
+      
+      <!-- 後列（より薄く表現） -->
+      <rect x="180" y="430" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="210" y="425" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="240" y="420" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="270" y="425" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="300" y="420" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="330" y="425" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="360" y="420" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="390" y="425" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="420" y="420" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="450" y="425" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="480" y="420" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="510" y="425" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="540" y="420" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="570" y="425" width="15" height="25" rx="5" opacity="0.6" />
+      <rect x="600" y="430" width="15" height="25" rx="5" opacity="0.6" />
+    </g>
+  </g>
+  
+  <!-- ステージプラットフォーム -->
+  <rect x="150" y="380" width="500" height="20" rx="5" fill="url(#stageGradient)" />
+  <rect x="175" y="400" width="450" height="10" rx="2" fill="#223449" />
+  
+  <!-- 演壇 -->
+  <g>
+    <rect x="370" y="340" width="60" height="40" fill="#2c4057" />
+    <rect x="380" y="345" width="40" height="30" fill="#3a526e" />
+  </g>
+  
+  <!-- 講師のシルエット（抽象的に表現） -->
+  <g>
+    <ellipse cx="400" cy="310" rx="30" ry="20" fill="#1d2e45" />
+    <rect x="385" y="330" width="30" height="50" rx="5" fill="#1d2e45" />
+  </g>
+  
+  <!-- スポットライト効果 -->
+  <circle cx="400" cy="300" r="150" fill="url(#spotlightGradient)" opacity="0.7" />
+  
+  <!-- 特別講演タイトル -->
+  <g filter="url(#glow)">
+    <text x="400" y="100" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" font-weight="bold">特別講演</text>
+    <text x="400" y="140" font-family="Arial, sans-serif" font-size="20" fill="#e6f0ff" text-anchor="middle">著名な政治・経済の講師による特別セッション</text>
+  </g>
+  
+  <!-- デザイン性を高める抽象的な要素 -->
+  <g opacity="0.4">
+    <circle cx="150" cy="120" r="40" fill="none" stroke="#4a7aa8" stroke-width="2" />
+    <circle cx="650" cy="120" r="40" fill="none" stroke="#4a7aa8" stroke-width="2" />
+    <line x1="120" y1="100" x2="180" y2="140" stroke="#4a7aa8" stroke-width="1" />
+    <line x1="120" y1="140" x2="180" y2="100" stroke="#4a7aa8" stroke-width="1" />
+    <line x1="620" y1="100" x2="680" y2="140" stroke="#4a7aa8" stroke-width="1" />
+    <line x1="620" y1="140" x2="680" y2="100" stroke="#4a7aa8" stroke-width="1" />
+  </g>
+  
+  <!-- 「調整中」マーク -->
+  <g>
+    <rect x="470" y="180" width="100" height="30" rx="15" fill="#e74c3c" opacity="0.9" />
+    <text x="520" y="200" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">調整中</text>
+  </g>
+</svg>

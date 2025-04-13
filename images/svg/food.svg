@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f5f7fa"/>
+  
+  <!-- 装飾的な背景要素 - お祭り雰囲気 -->
+  <rect x="0" y="0" width="800" height="120" fill="#f39c12" opacity="0.1"/>
+  <rect x="0" y="480" width="800" height="120" fill="#f39c12" opacity="0.1"/>
+  
+  <!-- 提灯の装飾（上部） -->
+  <g id="lanterns">
+    <!-- 提灯1 -->
+    <ellipse cx="100" cy="70" rx="25" ry="40" fill="#e74c3c" opacity="0.9"/>
+    <rect x="95" y="30" width="10" height="10" fill="#2c3e50"/>
+    <ellipse cx="100" cy="70" rx="20" ry="35" fill="#c0392b" opacity="0.5"/>
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">祭</text>
+    
+    <!-- 提灯2 -->
+    <ellipse cx="200" cy="70" rx="25" ry="40" fill="#f39c12" opacity="0.9"/>
+    <rect x="195" y="30" width="10" height="10" fill="#2c3e50"/>
+    <ellipse cx="200" cy="70" rx="20" ry="35" fill="#e67e22" opacity="0.5"/>
+    <text x="200" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">り</text>
+    
+    <!-- 提灯3 -->
+    <ellipse cx="300" cy="70" rx="25" ry="40" fill="#3498db" opacity="0.9"/>
+    <rect x="295" y="30" width="10" height="10" fill="#2c3e50"/>
+    <ellipse cx="300" cy="70" rx="20" ry="35" fill="#2980b9" opacity="0.5"/>
+    <text x="300" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">政</text>
+    
+    <!-- 提灯4 -->
+    <ellipse cx="400" cy="70" rx="25" ry="40" fill="#2ecc71" opacity="0.9"/>
+    <rect x="395" y="30" width="10" height="10" fill="#2c3e50"/>
+    <ellipse cx="400" cy="70" rx="20" ry="35" fill="#27ae60" opacity="0.5"/>
+    <text x="400" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">治</text>
+    
+    <!-- 提灯5 -->
+    <ellipse cx="500" cy="70" rx="25" ry="40" fill="#9b59b6" opacity="0.9"/>
+    <rect x="495" y="30" width="10" height="10" fill="#2c3e50"/>
+    <ellipse cx="500" cy="70" rx="20" ry="35" fill="#8e44ad" opacity="0.5"/>
+    <text x="500" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">祭</text>
+    
+    <!-- 提灯6 -->
+    <ellipse cx="600" cy="70" rx="25" ry="40" fill="#e74c3c" opacity="0.9"/>
+    <rect x="595" y="30" width="10" height="10" fill="#2c3e50"/>
+    <ellipse cx="600" cy="70" rx="20" ry="35" fill="#c0392b" opacity="0.5"/>
+    <text x="600" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">り</text>
+    
+    <!-- 提灯7 -->
+    <ellipse cx="700" cy="70" rx="25" ry="40" fill="#f39c12" opacity="0.9"/>
+    <rect x="695" y="30" width="10" height="10" fill="#2c3e50"/>
+    <ellipse cx="700" cy="70" rx="20" ry="35" fill="#e67e22" opacity="0.5"/>
+    <text x="700" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">！</text>
+  </g>
+  
+  <!-- つなぎの縄 -->
+  <path d="M75 30 H725" stroke="#34495e" stroke-width="3" fill="none"/>
+  
+  <!-- メインタイトル -->
+  <rect x="150" y="130" width="500" height="60" rx="10" fill="#f39c12"/>
+  <rect x="160" y="140" width="480" height="40" rx="5" fill="#e67e22"/>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">屋台コーナー</text>
+  
+  <!-- ヨーヨー釣り屋台 (左側) -->
+  <g transform="translate(150, 250)">
+    <!-- 屋台の屋根 -->
+    <path d="M0 0 H200 L180 30 H20 Z" fill="#e74c3c"/>
+    <rect x="10" y="30" width="180" height="10" fill="#c0392b"/>
+    
+    <!-- 屋台の暖簾 -->
+    <rect x="20" y="40" width="160" height="20" fill="#f39c12"/>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">ヨーヨー釣り</text>
+    
+    <!-- 屋台の本体 -->
+    <rect x="20" y="60" width="160" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- ヨーヨー釣りの水槽 -->
+    <rect x="30" y="70" width="140" height="80" fill="#3498db" opacity="0.3" stroke="#2980b9" stroke-width="1"/>
+    
+    <!-- ヨーヨー -->
+    <ellipse cx="50" cy="100" rx="15" ry="10" fill="#e74c3c" opacity="0.9"/>
+    <ellipse cx="50" cy="100" rx="10" ry="6" fill="#c0392b" opacity="0.7"/>
+    <path d="M50 100 v-20" stroke="#34495e" stroke-width="1" fill="none"/>
+    
+    <ellipse cx="80" cy="110" rx="15" ry="10" fill="#3498db" opacity="0.9"/>
+    <ellipse cx="80" cy="110" rx="10" ry="6" fill="#2980b9" opacity="0.7"/>
+    <path d="M80 110 v-20" stroke="#34495e" stroke-width="1" fill="none"/>
+    
+    <ellipse cx="110" cy="95" rx="15" ry="10" fill="#2ecc71" opacity="0.9"/>
+    <ellipse cx="110" cy="95" rx="10" ry="6" fill="#27ae60" opacity="0.7"/>
+    <path d="M110 95 v-20" stroke="#34495e" stroke-width="1" fill="none"/>
+    
+    <ellipse cx="140" cy="115" rx="15" ry="10" fill="#f39c12" opacity="0.9"/>
+    <ellipse cx="140" cy="115" rx="10" ry="6" fill="#e67e22" opacity="0.7"/>
+    <path d="M140 115 v-20" stroke="#34495e" stroke-width="1" fill="none"/>
+    
+    <!-- 釣り棒を持つ子ども -->
+    <g transform="translate(-30, 100)">
+      <circle cx="0" cy="0" r="25" fill="#9b59b6" opacity="0.9"/>
+      <circle cx="0" cy="-15" r="12" fill="#9b59b6"/>
+      <ellipse cx="-4" cy="-17" rx="2" ry="3" fill="#2c3e50"/>
+      <ellipse cx="4" cy="-17" rx="2" ry="3" fill="#2c3e50"/>
+      <path d="M-4 -10 Q0 -7 4 -10" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+      
+      <!-- 釣り棒 -->
+      <path d="M15 -5 L50 -30 L60 -20" fill="none" stroke="#8e44ad" stroke-width="3"/>
+      <path d="M60 -20 L60 80" fill="none" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2"/>
+      
+      <!-- 吹き出し -->
+      <path d="M-20 -30 Q-40 -40 -60 -35 Q-70 -25 -60 -10 Q-40 0 -20 -10 Z" fill="white" stroke="#2c3e50" stroke-width="1.5"/>
+      <text x="-45" y="-20" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">ヨーヨー取れた！</text>
+    </g>
+  </g>
+  
+  <!-- スーパーボールすくい屋台 (右側) -->
+  <g transform="translate(450, 250)">
+    <!-- 屋台の屋根 -->
+    <path d="M0 0 H200 L180 30 H20 Z" fill="#3498db"/>
+    <rect x="10" y="30" width="180" height="10" fill="#2980b9"/>
+    
+    <!-- 屋台の暖簾 -->
+    <rect x="20" y="40" width="160" height="20" fill="#2ecc71"/>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">スーパーボールすくい</text>
+    
+    <!-- 屋台の本体 -->
+    <rect x="20" y="60" width="160" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- スーパーボールすくいの水槽 -->
+    <rect x="30" y="70" width="140" height="80" fill="#3498db" opacity="0.3" stroke="#2980b9" stroke-width="1"/>
+    
+    <!-- スーパーボール -->
+    <circle cx="50" cy="100" r="8" fill="#e74c3c"/>
+    <circle cx="70" cy="110" r="8" fill="#f39c12"/>
+    <circle cx="90" cy="95" r="8" fill="#2ecc71"/>
+    <circle cx="110" cy="105" r="8" fill="#3498db"/>
+    <circle cx="130" cy="100" r="8" fill="#9b59b6"/>
+    <circle cx="150" cy="110" r="8" fill="#f1c40f"/>
+    <circle cx="40" cy="120" r="8" fill="#e67e22"/>
+    <circle cx="60" cy="90" r="8" fill="#16a085"/>
+    <circle cx="80" cy="120" r="8" fill="#8e44ad"/>
+    <circle cx="100" cy="85" r="8" fill="#c0392b"/>
+    <circle cx="120" cy="115" r="8" fill="#2980b9"/>
+    <circle cx="140" cy="90" r="8" fill="#d35400"/>
+    
+    <!-- ポイを持つ子ども -->
+    <g transform="translate(230, 100)">
+      <circle cx="0" cy="0" r="25" fill="#f1c40f" opacity="0.9"/>
+      <circle cx="0" cy="-15" r="12" fill="#f1c40f"/>
+      <ellipse cx="-4" cy="-17" rx="2" ry="3" fill="#2c3e50"/>
+      <ellipse cx="4" cy="-17" rx="2" ry="3" fill="#2c3e50"/>
+      <path d="M-4 -10 Q0 -7 4 -10" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+      
+      <!-- ポイ -->
+      <path d="M-15 -5 L-50 0" fill="none" stroke="#f39c12" stroke-width="3"/>
+      <circle cx="-60" cy="0" r="15" fill="none" stroke="#34495e" stroke-width="1" stroke-dasharray="2,2"/>
+      <path d="M-60 0 C-70 5, -70 15, -60 20 C-50 25, -40 15, -30 10" fill="none" stroke="#34495e" stroke-width="1"/>
+      
+      <!-- 吹き出し -->
+      <path d="M20 -30 Q40 -40 60 -35 Q70 -25 60 -10 Q40 0 20 -10 Z" fill="white" stroke="#2c3e50" stroke-width="1.5"/>
+      <text x="45" y="-25" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">たくさん</text>
+      <text x="45" y="-15" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">すくうぞ！</text>
+    </g>
+  </g>
+  
+  <!-- 射的屋台 (中央下) -->
+  <g transform="translate(300, 400)">
+    <!-- 屋台の屋根 -->
+    <path d="M0 0 H200 L180 30 H20 Z" fill="#9b59b6"/>
+    <rect x="10" y="30" width="180" height="10" fill="#8e44ad"/>
+    
+    <!-- 屋台の暖簾 -->
+    <rect x="20" y="40" width="160" height="20" fill="#1abc9c"/>
+    <text x="100" y="55" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">射的</text>
+    
+    <!-- 屋台の本体 -->
+    <rect x="20" y="60" width="160" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- 射的ターゲット -->
+    <rect x="40" y="70" width="120" height="80" fill="#34495e"/>
+    <circle cx="70" cy="90" r="15" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+    <circle cx="70" cy="90" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    
+    <circle cx="130" cy="90" r="15" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+    <circle cx="130" cy="90" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    
+    <circle cx="100" cy="120" r="15" fill="#f1c40f" stroke="#f39c12" stroke-width="2"/>
+    <circle cx="100" cy="120" r="8" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    
+    <!-- 景品（ぬいぐるみなど） -->
+    <ellipse cx="200" cy="70" rx="15" ry="20" fill="#e74c3c"/>
+    <ellipse cx="200" cy="50" rx="10" ry="10" fill="#c0392b"/>
+    
+    <ellipse cx="230" cy="80" rx="20" ry="15" fill="#3498db"/>
+    <ellipse cx="230" cy="65" rx="10" ry="8" fill="#2980b9"/>
+    
+    <rect x="250" y="70" width="20" height="30" rx="5" fill="#2ecc71"/>
+    <rect x="255" y="65" width="10" height="10" rx="5" fill="#27ae60"/>
+  </g>
+  
+  <!-- 大人と子ども (中央) -->
+  <g transform="translate(400, 350)">
+    <!-- 大人 -->
+    <circle cx="0" cy="0" r="30" fill="#34495e" opacity="0.9"/>
+    <circle cx="0" cy="-20" r="15" fill="#34495e"/>
+    <ellipse cx="-5" cy="-22" rx="3" ry="4" fill="#ecf0f1"/>
+    <ellipse cx="5" cy="-22" rx="3" ry="4" fill="#ecf0f1"/>
+    <path d="M-5 -15 Q0 -10 5 -15" fill="none" stroke="#ecf0f1" stroke-width="1.5"/>
+    
+    <!-- 子ども -->
+    <circle cx="40" cy="10" r="20" fill="#e74c3c" opacity="0.9"/>
+    <circle cx="40" cy="-5" r="10" fill="#e74c3c"/>
+    <ellipse cx="37" cy="-7" rx="2" ry="3" fill="#2c3e50"/>
+    <ellipse cx="43" cy="-7" rx="2" ry="3" fill="#2c3e50"/>
+    <path d="M37 -2 Q40 0 43 -2" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+    
+    <!-- 子どもの手を引く -->
+    <path d="M15 0 L25 5" fill="none" stroke="#34495e" stroke-width="4"/>
+    
+    <!-- 吹き出し -->
+    <path d="M-30 -40 Q-50 -50 -70 -45 Q-80 -35 -70 -20 Q-50 -10 -30 -20 Z" fill="white" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="-55" y="-35" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">政治のことも</text>
+    <text x="-55" y="-23" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50" text-anchor="middle">楽しく学べるね</text>
+  </g>
+  
+  <!-- 下部の説明テキスト -->
+  <rect x="100" y="550" width="600" height="30" rx="5" fill="#f39c12"/>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">お祭り感覚で政治について学べる！子どもから大人まで楽しめる屋台コーナー</text>
+</svg>

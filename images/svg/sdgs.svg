@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fb"/>
+  
+  <!-- 装飾的な背景要素 - 淡いSDGsカラー -->
+  <rect x="0" y="0" width="800" height="100" fill="#4c9f38" opacity="0.05"/>
+  <rect x="0" y="500" width="800" height="100" fill="#26bde2" opacity="0.05"/>
+  
+  <!-- トップバナー / 看板 -->
+  <rect x="150" y="30" width="500" height="70" rx="10" fill="#4c9f38"/>
+  <text x="400" y="75" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">SDGsに配慮した軽食販売</text>
+  
+  <!-- メインの屋台 -->
+  <g transform="translate(150, 130)">
+    <!-- 屋台の上部構造 -->
+    <path d="M0 0 H500 L480 40 H20 Z" fill="#26bde2"/>
+    <rect x="20" y="40" width="460" height="15" fill="#19486a"/>
+    
+    <!-- 屋台の本体 -->
+    <rect x="20" y="55" width="460" height="220" fill="white" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+    
+    <!-- 屋台のカウンター部分 -->
+    <rect x="20" y="195" width="460" height="80" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    
+    <!-- 屋台表示ボード（左側） -->
+    <g transform="translate(60, 90)">
+      <rect x="0" y="0" width="120" height="70" rx="5" fill="#dda63a" opacity="0.9"/>
+      <text x="60" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">地元野菜</text>
+      <text x="60" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">サラダ</text>
+      
+      <!-- サラダボウルのイラスト -->
+      <circle cx="60" cy="100" r="30" fill="#ecf0f1"/>
+      <ellipse cx="60" cy="95" rx="25" ry="10" fill="#4c9f38" opacity="0.8"/>
+      <ellipse cx="45" cy="95" rx="5" ry="3" fill="#e74c3c" opacity="0.7"/>
+      <ellipse cx="70" cy="90" rx="5" ry="3" fill="#f1c40f" opacity="0.7"/>
+      <ellipse cx="60" cy="100" rx="5" ry="3" fill="#f39c12" opacity="0.7"/>
+      
+      <!-- エコ認証マーク -->
+      <circle cx="100" cy="20" r="10" fill="#4c9f38"/>
+      <text x="100" y="24" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">エコ</text>
+    </g>
+    
+    <!-- 屋台表示ボード（中央） -->
+    <g transform="translate(200, 90)">
+      <rect x="0" y="0" width="120" height="70" rx="5" fill="#26bde2" opacity="0.9"/>
+      <text x="60" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">フェアトレード</text>
+      <text x="60" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">コーヒー</text>
+      
+      <!-- コーヒーカップのイラスト -->
+      <rect x="40" y="90" width="25" height="30" rx="3" fill="#6f4e37"/>
+      <rect x="37" y="90" width="31" height="5" rx="2" fill="#6f4e37" opacity="0.7"/>
+      <path d="M65 95 Q80 105 65 115" fill="none" stroke="#6f4e37" stroke-width="3"/>
+      
+      <!-- フェアトレードマーク -->
+      <circle cx="100" cy="20" r="10" fill="#0a97d9"/>
+      <text x="100" y="24" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">FT</text>
+    </g>
+    
+    <!-- 屋台表示ボード（右側） -->
+    <g transform="translate(340, 90)">
+      <rect x="0" y="0" width="120" height="70" rx="5" fill="#fd6925" opacity="0.9"/>
+      <text x="60" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">地産地消</text>
+      <text x="60" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">ベジタコス</text>
+      
+      <!-- ベジタコスのイラスト -->
+      <path d="M40 85 Q60 115 80 85" fill="#f1c40f"/>
+      <ellipse cx="60" cy="90" rx="15" ry="5" fill="#4c9f38" opacity="0.7"/>
+      <ellipse cx="50" cy="90" rx="4" ry="2" fill="#e74c3c" opacity="0.7"/>
+      <ellipse cx="70" cy="90" rx="4" ry="2" fill="#e67e22" opacity="0.7"/>
+      
+      <!-- ローカル認証マーク -->
+      <circle cx="100" cy="20" r="10" fill="#fd6925"/>
+      <text x="100" y="24" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">地元</text>
+    </g>
+    
+    <!-- エコ包装説明 -->
+    <g transform="translate(100, 220)">
+      <circle cx="0" cy="0" r="25" fill="#3f7e44" opacity="0.8"/>
+      <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">♲</text>
+    </g>
+    
+    <!-- 収益の社会還元説明 -->
+    <g transform="translate(350, 220)">
+      <circle cx="0" cy="0" r="25" fill="#dd1367" opacity="0.8"/>
+      <text x="0" y="8" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">♥</text>
+    </g>
+  </g>
+  
+  <!-- スタッフ（左） -->
+  <g transform="translate(170, 420)">
+    <circle cx="0" cy="0" r="40" fill="#4c9f38" opacity="0.8"/>
+    <circle cx="0" cy="-22" r="20" fill="#4c9f38"/>
+    <ellipse cx="-7" cy="-24" rx="3" ry="4" fill="#2c3e50"/>
+    <ellipse cx="7" cy="-24" rx="3" ry="4" fill="#2c3e50"/>
+    <path d="M-7 -14 Q0 -9 7 -14" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+    
+    <!-- エプロン -->
+    <path d="M-25 10 L25 10 L15 50 L-15 50 Z" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" fill="#3f7e44" text-anchor="middle">SDGs</text>
+    
+    <!-- 吹き出し -->
+    <path d="M40 -30 Q90 -40 100 -70 Q100 -100 60 -100 Q20 -100 20 -70 Q20 -40 40 -30 Z" fill="white" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="60" y="-75" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">地元食材で</text>
+    <text x="60" y="-55" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">環境にやさしい</text>
+  </g>
+  
+  <!-- 顧客（右） -->
+  <g transform="translate(600, 420)">
+    <circle cx="0" cy="0" r="40" fill="#26bde2" opacity="0.8"/>
+    <circle cx="0" cy="-22" r="20" fill="#26bde2"/>
+    <ellipse cx="-7" cy="-24" rx="3" ry="4" fill="#2c3e50"/>
+    <ellipse cx="7" cy="-24" rx="3" ry="4" fill="#2c3e50"/>
+    <path d="M-7 -14 Q0 -8 7 -14" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+    
+    <!-- 持っている食べ物 -->
+    <circle cx="-35" cy="0" r="20" fill="#ecf0f1"/>
+    <ellipse cx="-35" cy="0" rx="17" ry="7" fill="#4c9f38" opacity="0.7"/>
+    
+    <!-- 吹き出し -->
+    <path d="M-40 -30 Q-90 -40 -100 -70 Q-100 -100 -60 -100 Q-20 -100 -20 -70 Q-20 -40 -40 -30 Z" fill="white" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="-60" y="-75" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">おいしい上に</text>
+    <text x="-60" y="-55" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">社会貢献にも</text>
+  </g>
+  
+  <!-- 環境配慮のポイントアイコン -->
+  <g transform="translate(200, 520)">
+    <circle cx="0" cy="0" r="30" fill="#4c9f38" opacity="0.9"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">♲</text>
+  </g>
+  
+  <g transform="translate(300, 520)">
+    <circle cx="0" cy="0" r="30" fill="#26bde2" opacity="0.9"/>
+    <path d="M-15 0 L15 0 M0 -15 L0 15" stroke="white" stroke-width="5"/>
+  </g>
+  
+  <g transform="translate(400, 520)">
+    <circle cx="0" cy="0" r="30" fill="#dd1367" opacity="0.9"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">♥</text>
+  </g>
+  
+  <g transform="translate(500, 520)">
+    <circle cx="0" cy="0" r="30" fill="#fd6925" opacity="0.9"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">⇌</text>
+  </g>
+  
+  <g transform="translate(600, 520)">
+    <circle cx="0" cy="0" r="30" fill="#dda63a" opacity="0.9"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">★</text>
+  </g>
+</svg>

@@ -1,0 +1,268 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景と基本グラデーション -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECF5FE" />
+      <stop offset="100%" stop-color="#E4F1F9" />
+    </linearGradient>
+    
+    <linearGradient id="couponGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFECB3" />
+      <stop offset="100%" stop-color="#FFD54F" />
+    </linearGradient>
+    
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90CAF9" />
+      <stop offset="100%" stop-color="#42A5F5" />
+    </linearGradient>
+    
+    <linearGradient id="storeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A5D6A7" />
+      <stop offset="100%" stop-color="#66BB6A" />
+    </linearGradient>
+    
+    <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5CAE9" />
+      <stop offset="100%" stop-color="#7986CB" />
+    </linearGradient>
+    
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="2" dy="2" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <pattern id="patternDots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#BBDEFB" />
+      <circle cx="10" cy="10" r="1" fill="#BBDEFB" />
+      <circle cx="18" cy="18" r="1" fill="#BBDEFB" />
+    </pattern>
+    
+    <symbol id="abstractCoupon" viewBox="0 0 100 50">
+      <rect x="0" y="0" width="100" height="50" rx="5" fill="url(#couponGradient)" />
+      <line x1="20" y1="0" x2="20" y2="50" stroke="#FFF" stroke-width="1" stroke-dasharray="2,2" />
+      <circle cx="10" cy="25" r="5" fill="#FFF" opacity="0.7" />
+      <rect x="30" y="15" width="60" height="5" rx="2" fill="#FFF" opacity="0.7" />
+      <rect x="30" y="25" width="40" height="5" rx="2" fill="#FFF" opacity="0.7" />
+      <rect x="30" y="35" width="50" height="5" rx="2" fill="#FFF" opacity="0.7" />
+      <path d="M85,10 L95,10 L95,20 L85,20 Z" fill="#F44336" opacity="0.8" />
+      <text x="90" y="17" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">%</text>
+    </symbol>
+    
+    <symbol id="abstractPerson" viewBox="0 0 40 60">
+      <circle cx="20" cy="15" r="10" fill="#5C6BC0" />
+      <path d="M10,25 C10,25 15,45 20,50 C25,45 30,25 30,25 Z" fill="#5C6BC0" />
+      <path d="M10,28 C10,28 0,35 5,45" stroke="#5C6BC0" stroke-width="4" stroke-linecap="round" />
+      <path d="M30,28 C30,28 40,35 35,45" stroke="#5C6BC0" stroke-width="4" stroke-linecap="round" />
+    </symbol>
+    
+    <symbol id="abstractStore" viewBox="0 0 100 80">
+      <rect x="10" y="30" width="80" height="50" fill="url(#storeGradient)" rx="2" />
+      <path d="M5,30 L95,30 L80,10 L20,10 Z" fill="#81C784" />
+      <rect x="30" y="50" width="40" height="30" fill="#E8F5E9" />
+      <path d="M70,30 L95,30 L95,20 L80,20 Z" fill="#388E3C" opacity="0.7" />
+    </symbol>
+    
+    <symbol id="abstractBuilding" viewBox="0 0 120 150">
+      <rect x="10" y="20" width="100" height="130" fill="url(#buildingGradient)" rx="3" />
+      <rect x="20" y="30" width="20" height="20" fill="#E3F2FD" rx="2" />
+      <rect x="50" y="30" width="20" height="20" fill="#E3F2FD" rx="2" />
+      <rect x="80" y="30" width="20" height="20" fill="#E3F2FD" rx="2" />
+      <rect x="20" y="60" width="20" height="20" fill="#E3F2FD" rx="2" />
+      <rect x="50" y="60" width="20" height="20" fill="#E3F2FD" rx="2" />
+      <rect x="80" y="60" width="20" height="20" fill="#E3F2FD" rx="2" />
+      <rect x="35" y="100" width="50" height="50" fill="#E3F2FD" />
+      <rect x="45" y="120" width="30" height="30" fill="#0D47A1" opacity="0.2" />
+      <path d="M0,20 L60,0 L120,20 L120,30 L0,30 Z" fill="#64B5F6" />
+    </symbol>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  <rect width="800" height="600" fill="url(#patternDots)" opacity="0.5" />
+  
+  <!-- 抽象的なコンセプト表現 -->
+  <g opacity="0.1">
+    <circle cx="400" cy="300" r="250" fill="none" stroke="#1565C0" stroke-width="30" />
+    <circle cx="400" cy="300" r="200" fill="none" stroke="#1565C0" stroke-width="20" />
+    <circle cx="400" cy="300" r="150" fill="none" stroke="#1565C0" stroke-width="10" />
+  </g>
+  
+  <!-- メインビルディング（イベント会場） -->
+  <g transform="translate(325, 200)" filter="url(#shadow)">
+    <use href="#abstractBuilding" width="150" height="180" />
+    <!-- イベントラベル -->
+    <rect x="25" y="110" width="100" height="25" rx="5" fill="#1E88E5" opacity="0.9" />
+    <text x="75" y="127" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">イベント会場</text>
+  </g>
+  
+  <!-- 周辺店舗群（抽象的表現） -->
+  <g filter="url(#shadow)">
+    <!-- 左上の店舗 -->
+    <g transform="translate(150, 130)">
+      <use href="#abstractStore" width="70" height="60" />
+      <circle cx="35" cy="30" r="15" fill="#FF8A65" opacity="0.8" />
+      <text x="35" y="34" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">A</text>
+    </g>
+    
+    <!-- 右上の店舗 -->
+    <g transform="translate(580, 130)">
+      <use href="#abstractStore" width="70" height="60" />
+      <circle cx="35" cy="30" r="15" fill="#7E57C2" opacity="0.8" />
+      <text x="35" y="34" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">B</text>
+    </g>
+    
+    <!-- 左下の店舗 -->
+    <g transform="translate(150, 400)">
+      <use href="#abstractStore" width="70" height="60" />
+      <circle cx="35" cy="30" r="15" fill="#26A69A" opacity="0.8" />
+      <text x="35" y="34" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">C</text>
+    </g>
+    
+    <!-- 右下の店舗 -->
+    <g transform="translate(580, 400)">
+      <use href="#abstractStore" width="70" height="60" />
+      <circle cx="35" cy="30" r="15" fill="#FFA726" opacity="0.8" />
+      <text x="35" y="34" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">D</text>
+    </g>
+  </g>
+  
+  <!-- 連携関係を示す線と矢印 -->
+  <g stroke-width="2" stroke-linecap="round">
+    <!-- イベントと店舗A -->
+    <path d="M350,240 C300,200 250,180 200,160" fill="none" stroke="url(#flowGradient)" stroke-dasharray="6,3" />
+    <polygon points="200,160 210,153 210,167" fill="#7986CB" />
+    
+    <!-- イベントと店舗B -->
+    <path d="M450,240 C500,200 550,180 600,160" fill="none" stroke="url(#flowGradient)" stroke-dasharray="6,3" />
+    <polygon points="600,160 590,153 590,167" fill="#7986CB" />
+    
+    <!-- イベントと店舗C -->
+    <path d="M350,360 C300,400 250,420 200,430" fill="none" stroke="url(#flowGradient)" stroke-dasharray="6,3" />
+    <polygon points="200,430 210,423 210,437" fill="#7986CB" />
+    
+    <!-- イベントと店舗D -->
+    <path d="M450,360 C500,400 550,420 600,430" fill="none" stroke="url(#flowGradient)" stroke-dasharray="6,3" />
+    <polygon points="600,430 590,423 590,437" fill="#7986CB" />
+  </g>
+  
+  <!-- クーポン表現 -->
+  <g filter="url(#shadow)">
+    <!-- 店舗Aのクーポン -->
+    <g transform="translate(230, 120) rotate(-15)">
+      <use href="#abstractCoupon" width="80" height="40" />
+    </g>
+    
+    <!-- 店舗Bのクーポン -->
+    <g transform="translate(490, 120) rotate(15)">
+      <use href="#abstractCoupon" width="80" height="40" />
+    </g>
+    
+    <!-- 店舗Cのクーポン -->
+    <g transform="translate(230, 390) rotate(15)">
+      <use href="#abstractCoupon" width="80" height="40" />
+    </g>
+    
+    <!-- 店舗Dのクーポン -->
+    <g transform="translate(490, 390) rotate(-15)">
+      <use href="#abstractCoupon" width="80" height="40" />
+    </g>
+  </g>
+  
+  <!-- 人物アイコン（消費者） -->
+  <g>
+    <!-- イベント会場内の人々 -->
+    <g transform="translate(370, 280)">
+      <use href="#abstractPerson" width="30" height="40" />
+    </g>
+    <g transform="translate(400, 290)">
+      <use href="#abstractPerson" width="30" height="40" />
+    </g>
+    
+    <!-- 店舗に向かう人々 -->
+    <g transform="translate(300, 200) rotate(-30)">
+      <use href="#abstractPerson" width="25" height="35" />
+    </g>
+    <g transform="translate(500, 200) rotate(30)">
+      <use href="#abstractPerson" width="25" height="35" />
+    </g>
+    <g transform="translate(300, 380) rotate(-150)">
+      <use href="#abstractPerson" width="25" height="35" />
+    </g>
+    <g transform="translate(500, 380) rotate(150)">
+      <use href="#abstractPerson" width="25" height="35" />
+    </g>
+  </g>
+  
+  <!-- 消費フロー表現 -->
+  <g opacity="0.8">
+    <!-- 金銭フロー - 抽象的表現 -->
+    <circle cx="270" cy="300" r="8" fill="#4CAF50" />
+    <circle cx="285" cy="300" r="8" fill="#4CAF50" />
+    <circle cx="300" cy="300" r="8" fill="#4CAF50" />
+    
+    <circle cx="500" cy="300" r="8" fill="#4CAF50" />
+    <circle cx="515" cy="300" r="8" fill="#4CAF50" />
+    <circle cx="530" cy="300" r="8" fill="#4CAF50" />
+    
+    <circle cx="400" cy="170" r="8" fill="#4CAF50" />
+    <circle cx="400" cy="185" r="8" fill="#4CAF50" />
+    
+    <circle cx="400" cy="415" r="8" fill="#4CAF50" />
+    <circle cx="400" cy="430" r="8" fill="#4CAF50" />
+  </g>
+  
+  <!-- メインタイトル -->
+  <g>
+    <text x="400" y="80" font-family="Arial, sans-serif" font-size="36" fill="#1565C0" text-anchor="middle" font-weight="bold">店舗連携</text>
+    <text x="400" y="110" font-family="Arial, sans-serif" font-size="16" fill="#1976D2" text-anchor="middle">館内消費促進のためのクーポン連携</text>
+  </g>
+  
+  <!-- 要素説明のキャプション -->
+  <g>
+    <!-- イベント来場者 -->
+    <g transform="translate(50, 520)">
+      <use href="#abstractPerson" width="20" height="30" />
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="12" fill="#5C6BC0" text-anchor="start">イベント参加者</text>
+    </g>
+    
+    <!-- クーポン -->
+    <g transform="translate(170, 520)">
+      <use href="#abstractCoupon" width="40" height="20" />
+      <text x="50" y="15" font-family="Arial, sans-serif" font-size="12" fill="#F57F17" text-anchor="start">特典クーポン</text>
+    </g>
+    
+    <!-- 店舗 -->
+    <g transform="translate(320, 520)">
+      <use href="#abstractStore" width="30" height="25" />
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="12" fill="#388E3C" text-anchor="start">館内店舗</text>
+    </g>
+    
+    <!-- 消費活動 -->
+    <g transform="translate(450, 520)">
+      <circle cx="0" cy="10" r="8" fill="#4CAF50" />
+      <circle cx="15" cy="10" r="8" fill="#4CAF50" />
+      <text x="30" y="15" font-family="Arial, sans-serif" font-size="12" fill="#4CAF50" text-anchor="start">消費活動</text>
+    </g>
+    
+    <!-- 連携 -->
+    <g transform="translate(580, 520)">
+      <path d="M0,10 C10,0 30,0 40,10" fill="none" stroke="#7986CB" stroke-width="2" stroke-dasharray="5,3" />
+      <polygon points="40,10 35,3 32,17" fill="#7986CB" />
+      <text x="50" y="15" font-family="Arial, sans-serif" font-size="12" fill="#3F51B5" text-anchor="start">連携関係</text>
+    </g>
+  </g>
+  
+  <!-- 消費促進メッセージ -->
+  <g transform="translate(400, 460)">
+    <rect x="-150" y="-25" width="300" height="50" rx="10" fill="#E1F5FE" stroke="#0288D1" stroke-width="2" filter="url(#shadow)" />
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="#01579B" text-anchor="middle" font-weight="bold">館内消費の促進</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#0277BD" text-anchor="middle">イベント参加者のショッピング・飲食を喚起</text>
+  </g>
+</svg>
